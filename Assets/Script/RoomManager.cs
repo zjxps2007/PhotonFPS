@@ -3,9 +3,9 @@ using UnityEngine;
 using Photon.Pun;
 using UnityEngine.SceneManagement;
 
-public class RoomManger : MonoBehaviourPunCallbacks
+public class RoomManager : MonoBehaviourPunCallbacks
 {
-    public static RoomManger Instance;
+    public static RoomManager Instance;
 
     private void Awake()
     {
