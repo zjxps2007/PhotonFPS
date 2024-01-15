@@ -100,7 +100,6 @@ public class PlayerController : MonoBehaviourPunCallbacks, IDamageable
         {
             Die(); 
         }
-        
     }
 
     void Look()
