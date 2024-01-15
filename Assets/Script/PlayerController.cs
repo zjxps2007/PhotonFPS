@@ -96,7 +96,7 @@ public class PlayerController : MonoBehaviourPunCallbacks, IDamageable
             items[itemIndex].Use();
         }
 
-        if (transform.position.y < -10f) // 떨어저 죽을때
+        if (transform.position.y < -10f) // 떨어저 죽을때 
         {
             Die(); 
         }
